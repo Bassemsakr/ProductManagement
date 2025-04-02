@@ -20,7 +20,9 @@ src/
     ├── Persistence/      # DbContext, Repositories
     └── Services/         # File storage, email, etc.
 
-ClientApp/                # Angular UI 
+ClientApp/                # Angular UI
+```
+
 
 ## Features
 
