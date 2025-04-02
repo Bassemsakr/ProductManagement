@@ -2,6 +2,25 @@
 
 A Clean Architecture implementation of a Products and Categories management system using .NET 8, CQRS, MediatR, and Domain-Driven Design principles.
 
+## Architecture Overview
+
+src/
+├── API/                  # Presentation layer (Controllers, DI)
+├── Application/          # Application layer (Commands, Queries, DTOs)
+│   ├── Products/         # Feature organization
+│   ├── Categories/
+│   └── ...
+├── Domain/               # Core domain layer
+│   ├── Entities/         # Aggregates and entities
+│   ├── ValueObjects/     # Price, etc.
+│   ├── Events/           # Domain events
+│   └── Interfaces/       # Repository contracts
+└── Infrastructure/       # Infrastructure services
+    ├── Persistence/      # EF Core implementations
+    └── Services/         # Other infrastructure services
+
+ClientApp/                # Angular frontend (optional)
+
 ## Features
 
 - ✅ Clean Architecture with separated layers
