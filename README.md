@@ -41,7 +41,7 @@ ClientApp/                # Angular UI
   - .NET 8
   - Entity Framework Core
   - MediatR
-  - SQL Server DB
+  - SQL Server
   - Swagger UI
 
 - **Frontend**:
