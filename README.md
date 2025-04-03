@@ -1,4 +1,4 @@
-# Products Management API
+# Products Management App
 
 A Clean Architecture implementation of a Products and Categories management system using .NET 8, CQRS, MediatR, and Domain-Driven Design principles.
 
